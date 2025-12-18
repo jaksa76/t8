@@ -45,9 +45,9 @@ T8_PROVIDER=openai          # or gemini, openrouter
 T8_API_KEY=your-api-key
 T8_MODEL=gpt-4o-mini
 T8_LOCALES_DIR=./locales
-T8_EXAMPLES_MAX=50
-T8_BATCH_MAX=25
-T8_DEBOUNCE_MS=20
+T8_MAX_EXAMPLES=50
+T8_BATCH_SIZE=25
+T8_BATCH_DELAY=20
 ```
 
 ## Cache Structure
@@ -92,8 +92,9 @@ t8.configure({
   model: 'gpt-4o-mini',
   apiKey: 'your-api-key',
   localesDir: './locales',
-  examples: { maxPairs: 50 },
-  batch: { maxSize: 25, debounceMs: 20 }
+  maxExamples: 50,
+  batchSize: 25,
+  batchDelay: 20
 });
 ```
 
