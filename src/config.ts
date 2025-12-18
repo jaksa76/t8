@@ -14,9 +14,9 @@ export interface T8Config {
 
 // Default configuration
 const defaults: T8Config = {
-  provider: 'openai',
+  provider: 'gemini',
   apiKey: '',
-  model: 'gpt-4o-mini',
+  model: 'gemini-3-pro-preview',
   localesDir: './locales',
   maxExamples: 50,
   batchSize: 25,

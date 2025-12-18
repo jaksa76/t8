@@ -19,7 +19,7 @@ test('gemini: translates to French', { skip: !shouldRun }, async () => {
   t8.configure({
     provider: 'gemini',
     apiKey: GEMINI_KEY!,
-    model: 'gemini-1.5-flash',
+    model: 'gemini-2.5-flash-lite',
     localesDir,
     batchDelay: 30
   });
@@ -40,7 +40,7 @@ test('gemini: translates to German', { skip: !shouldRun }, async () => {
   t8.configure({
     provider: 'gemini',
     apiKey: GEMINI_KEY!,
-    model: 'gemini-1.5-flash',
+    model: 'gemini-2.5-flash-lite',
     localesDir
   });
   
@@ -60,7 +60,7 @@ test('gemini: translates to Spanish', { skip: !shouldRun }, async () => {
   t8.configure({
     provider: 'gemini',
     apiKey: GEMINI_KEY!,
-    model: 'gemini-1.5-flash',
+    model: 'gemini-2.5-flash-lite',
     localesDir
   });
   
@@ -80,7 +80,7 @@ test('gemini: preserves placeholders', { skip: !shouldRun }, async () => {
   t8.configure({
     provider: 'gemini',
     apiKey: GEMINI_KEY!,
-    model: 'gemini-1.5-flash',
+    model: 'gemini-2.5-flash-lite',
     localesDir
   });
   
@@ -96,7 +96,7 @@ test('gemini: batches multiple translations', { skip: !shouldRun }, async () => 
   t8.configure({
     provider: 'gemini',
     apiKey: GEMINI_KEY!,
-    model: 'gemini-1.5-flash',
+    model: 'gemini-2.5-flash-lite',
     localesDir,
     batchDelay: 30
   });
@@ -124,7 +124,7 @@ test('gemini: uses cache on second call', { skip: !shouldRun }, async () => {
   t8.configure({
     provider: 'gemini',
     apiKey: GEMINI_KEY!,
-    model: 'gemini-1.5-flash',
+    model: 'gemini-2.5-flash-lite',
     localesDir
   });
   
