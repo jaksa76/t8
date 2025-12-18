@@ -14,13 +14,13 @@ AI-powered internationalization library with context-aware translation and local
 ## Installation
 
 ```bash
-npm install t8
+npm install @jaksa76/t8
 ```
 
 ## Quick Start
 
 ```javascript
-import t8 from 't8';
+import t8 from '@jaksa76/t8';
 
 // Configure (optional - can also use environment variables)
 t8.configure({

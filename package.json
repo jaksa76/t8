@@ -1,5 +1,5 @@
 {
-  "name": "t8",
+  "name": "@jaksa76/t8",
   "version": "0.1.0",
   "description": "AI-powered internationalization library with context-aware translation and local caching",
   "main": "dist/index.js",
@@ -43,7 +43,9 @@
     "tsx": "^4.7.0",
     "typescript": "^5.3.3"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@jaksa76/t8": "^0.1.0"
+  },
   "engines": {
     "node": ">=18.0.0"
   }
